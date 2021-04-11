@@ -28,7 +28,7 @@ function Header() {
                 <img src={logo} alt="" />
               </Link>
             </div>
-            <div className="delivary__details">
+            <div className="delivary__details resp_drown">
               <RoomOutlinedIcon className="icon_w" />
               <div className="doubleLinked t_c_w">
                 <div className="line1 t_c_c">Deliver to</div>
@@ -53,9 +53,10 @@ function Header() {
               <div className="line1">
                 Hello,&nbsp; <span>Jim</span>
               </div>
-              <div className="line2">Account & Lists</div>
+              <div className="line2 resp_drown">Account & Lists</div>
+              <div className="line2 resp_fly">SIgn in</div>
             </div>
-            <div className="ord_retu">
+            <div className="ord_retu resp_drown">
               <div className="line1">Returns</div>
               <div className="line2">& Orders</div>
             </div>
@@ -65,6 +66,15 @@ function Header() {
                 &nbsp;
                 <span>0</span>
               </Link>
+            </div>
+          </div>
+          <div className="delivary__details resp_fly">
+            <RoomOutlinedIcon className="icon_w" />
+            <div className="doubleLinked t_c_w">
+              <div className="line1 t_c_c">Deliver to</div>
+              <div className="line2" tabIndex="0">
+                Bangladesh
+              </div>
             </div>
           </div>
         </nav>
